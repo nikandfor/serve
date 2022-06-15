@@ -17,6 +17,9 @@ func main() {
 		Flags: []*cli.Flag{
 			cli.NewFlag("listen,l", ":8000", "listen address"),
 			cli.NewFlag("path,p", "./", "dir to serve"),
+			cli.FlagfileFlag,
+			cli.EnvfileFlag,
+			cli.HelpFlag,
 		},
 	}
 
