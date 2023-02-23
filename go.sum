@@ -194,12 +194,12 @@ github.com/nikandfor/cli v0.0.0-20210105003942-afe14413f747/go.mod h1:xDROzJvdwq
 github.com/nikandfor/cli v0.0.0-20210420133007-5f8e018b9b34 h1:VJeSmTZNtQLFOWFhMla2vtMQoV5MZedaXo0k/iZ4VH8=
 github.com/nikandfor/cli v0.0.0-20210420133007-5f8e018b9b34/go.mod h1:xDROzJvdwquuEh7AXL6jhA5uPUOq1veFeyLu7ZJDq9M=
 github.com/nikandfor/errors v0.3.1-0.20201212142705-56fda2c0e8b3/go.mod h1:YG1muM/ZtoVZ7rYhrFXUGLa9fRQ2yX5cs7LWiN8i8ho=
-github.com/nikandfor/errors v0.4.1-0.20210624015056-d0c43b092525 h1:qplfQ1O46Tb2wPV23NnCx+TynyKIwXTmv4wqqVOpCG4=
-github.com/nikandfor/errors v0.4.1-0.20210624015056-d0c43b092525/go.mod h1:ac76bSAWXd/vZoDX/vxld/VydNKgwdePy6YX2Ak+jiA=
+github.com/nikandfor/errors v0.7.0 h1:+hI2nC4T8T7r4/yXUR7nlQnXio/5bUUw9IXLNJeAxq8=
+github.com/nikandfor/errors v0.7.0/go.mod h1:CNowXzeHAVXI6YJNX3Pgtl3JoRBLurz84CxgPgY791E=
 github.com/nikandfor/loc v0.0.0-20201209201630-39582039abc5/go.mod h1:LZpmiieVWcBawLft3ptIUwVVweU6shBWbnEiitLzKG8=
-github.com/nikandfor/loc v0.1.0/go.mod h1:LZpmiieVWcBawLft3ptIUwVVweU6shBWbnEiitLzKG8=
-github.com/nikandfor/loc v0.1.1-0.20210914135013-829520244234 h1:h/+TjvaTRwO2f5o9Thzfs480G06M5iF0Mtv2Jf2teHk=
 github.com/nikandfor/loc v0.1.1-0.20210914135013-829520244234/go.mod h1:LZpmiieVWcBawLft3ptIUwVVweU6shBWbnEiitLzKG8=
+github.com/nikandfor/loc v0.4.0 h1:Dpr8magxCFuCB7Dgu86OSe7X2vMbUaUJslQrk/CqDFY=
+github.com/nikandfor/loc v0.4.0/go.mod h1:LZpmiieVWcBawLft3ptIUwVVweU6shBWbnEiitLzKG8=
 github.com/nikandfor/quantile v0.0.0-20201109213849-4905a12df281/go.mod h1:APrhtjJLhkjWbXluFo//uObr4wqeUN+frTIb0RJaLyE=
 github.com/nikandfor/tlog v0.12.2-0.20211014121358-23185f36ba1f h1:mnWYavpbyJXwkqN8gCB6L5Lsp8gtAlWOC7Ov7gwJfwg=
 github.com/nikandfor/tlog v0.12.2-0.20211014121358-23185f36ba1f/go.mod h1:ptQczWIg3W5huOA+FwuLmw/79Ss7l3a7JvB4wkXC3gY=
@@ -279,8 +279,9 @@ github.com/stretchr/objx v0.1.1/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
-github.com/stretchr/testify v1.6.1 h1:hDPOHmpOpP40lSULcqw7IrRb/u7w6RpDC9399XyoNd0=
 github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
+github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
+github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/tmc/grpc-websocket-proxy v0.0.0-20170815181823-89b8d40f7ca8/go.mod h1:ncp9v5uamzpCO7NfCPTXjqaC+bZgJeR0sMTm6dMHP7U=
 github.com/ugorji/go v1.1.7/go.mod h1:kZn38zHttfInRq0xu/PH0az30d+z6vm202qpg1oXVMw=
 github.com/ugorji/go/codec v1.1.7/go.mod h1:Ax+UKWsSmolVDwsd+7N3ZtXu+yMGCf907BLYF3GoBXY=
