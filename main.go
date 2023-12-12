@@ -5,13 +5,13 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/nikandfor/cli"
-	"github.com/nikandfor/errors"
-	"github.com/nikandfor/tlog"
+	"nikand.dev/go/cli"
+	"tlog.app/go/errors"
+	"tlog.app/go/tlog"
 )
 
 func main() {
-	cli.App = cli.Command{
+	app := cli.Command{
 		Name:   "simple HTTP local server",
 		Action: run,
 		Flags: []*cli.Flag{
@@ -23,7 +23,7 @@ func main() {
 		},
 	}
 
-	cli.RunAndExit(os.Args)
+	cli.RunAndExit(&app, os.Args, os.Environ())
 }
 
 func run(c *cli.Command) (err error) {
