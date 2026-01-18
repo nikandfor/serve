@@ -17,6 +17,7 @@ func main() {
 		Flags: []*cli.Flag{
 			cli.NewFlag("listen,l", ":8000", "listen address"),
 			cli.NewFlag("path,p", "./", "dir to serve"),
+			cli.NewFlag("cache-control", "", "Cache-Control response header"),
 			cli.FlagfileFlag,
 			cli.EnvfileFlag,
 			cli.HelpFlag,
@@ -28,6 +29,7 @@ func main() {
 
 func run(c *cli.Command) (err error) {
 	dir := http.Dir(c.String("path"))
+	cc := c.String("cache-control")
 
 	l, err := net.Listen("tcp", c.String("listen"))
 	if err != nil {
@@ -40,6 +42,10 @@ func run(c *cli.Command) (err error) {
 
 	err = http.Serve(l, http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {
 		tlog.Printw("request", "method", req.Method, "uri", req.RequestURI, "remote_addr", req.RemoteAddr)
+
+		if cc != "" {
+			w.Header().Set("Cache-Control", cc)
+		}
 
 		fs.ServeHTTP(w, req)
 	}))
